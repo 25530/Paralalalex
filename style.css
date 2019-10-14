@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+.sectie{
+    padding: 20vh 3em;
+    border: 1px solid blue;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    padding: 2em;
+}
+.sectie--achtergrond{
+    padding: 20vh 3em;
+    color: rgb(169, 233, 149);
+    font-size: 2em;
+    text-shadow: 0 0 14px rgb(51, 51, 51);
+    overflow-x: hidden;
+}
+.sectie--2{
+    background-image: url("https://soundontime.com/wp-content/uploads/2018/10/Vaporwave-Aesthetic.jpg");
+}
+.sectie--4{
+    background-image: url("https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=640:*");
+}
+.sectie--4 span{
+    transition: margin-left 1s ease-out;
+}
+.sectie--4 span:nth-child(1){
+    color: red;
+}
+.sectie--4__kop span:nth-child(1){
+    margin-left: -300px;
+}
+.sectie--4__kop span:nth-child(2){
+    margin-left: +700px;
+}
+.sectie--6{
+    background-image: url("https://nyunews.com/wp-content/uploads/2018/04/theme-hailey.jpg");
+}
